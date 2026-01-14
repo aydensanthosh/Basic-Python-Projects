@@ -61,6 +61,18 @@ A colorful racing game using Python's turtle graphics module.
   - Random movement patterns
   - Visual animations
 
+### 8.**Typing Speed test**
+A fast terminal version of typing speed test, which color code the correct and wrong letters and calculates, the speed of the user in wpm (words per minute) 
+-**Modules Used**: 'curses'
+- **Features**:
+  -Fast
+  -Refreshing screen in real-time:
+  -Simultaneously calculates the speed
+  -Color coding for wrong and right letters
+  -Allows to use backspace and rectify mistakes in typing. 
+
+
+
 ## 🛠️ **Technologies & Concepts Used**
 
 ### Programming Concepts:
