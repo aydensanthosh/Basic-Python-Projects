@@ -71,7 +71,28 @@ A fast terminal version of typing speed test, which color code the correct and w
   -Color coding for wrong and right letters
   -Allows to use backspace and rectify mistakes in typing. 
 
+### Robo-Speaker
+It is a handy and fast text to speech translation which can convert the input text from the user into speech,keeps running till user wans to exit.
+-**Modules Used**:'win32com.client'
+- **Features**:
+-Text-to-Speech Conversion: Converts any text input to speech
+-Interactive Mode: Continuous input until user chooses to quit
+-Cross-Platform: Works on Windows.
+-Multiple Voice Support: Utilizes system's built-in text-to-speech engines
+-Simple Interface: Easy-to-use command-line interface
 
+### Weather-App
+A Python application that fetches real-time weather data and announces the temperature using text-to-speech while displaying comprehensive weather information in a user-friendly manner onto the terminal.
+-**Modules Used**:'win32com.client','os','json','dotenv','requests'
+-**Features**:
+-- Real-time Weather Data: Fetches current weather information from a reliable API
+- Voice Announcement: Uses system text-to-speech to announce temperature
+- Comprehensive Display: Shows detailed weather information including:
+  - Temperature (current, in C and F)
+  - Weather conditions
+  - Wind speed
+- City Selection: Allows users to input any city worldwide
+- Visual Appeal: Clean, formatted display
 
 ## 🛠️ **Technologies & Concepts Used**
 
@@ -81,9 +102,12 @@ A fast terminal version of typing speed test, which color code the correct and w
 - Game Logic Implementation
 - User Input Validation
 - Score Tracking Systems
+- API calling
+- Fetching Requests
+- Error handling
 
 ### Python Modules:
-- Core: `random`, `time`, `os`
+- Core: `random`, `time`, `os`,`win32com`,`json`,`requests`
 - File Handling: File I/O operations
 - Graphics: `turtle` module
 - Data Structures: Lists, Dictionaries, Tuples, Sets
