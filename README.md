@@ -61,7 +61,7 @@ A colorful racing game using Python's turtle graphics module.
   - Random movement patterns
   - Visual animations
 
-### 8.**Typing Speed test**
+### 8. ⌨ **Typing Speed test**
 A fast terminal version of typing speed test, which color code the correct and wrong letters and calculates, the speed of the user in wpm (words per minute) 
 -**Modules Used**: 'curses'
 - **Features**:
@@ -71,7 +71,7 @@ A fast terminal version of typing speed test, which color code the correct and w
   -Color coding for wrong and right letters
   -Allows to use backspace and rectify mistakes in typing. 
 
-### Robo-Speaker
+### 9. 🤖 **Robo-Speaker**
 It is a handy and fast text to speech translation which can convert the input text from the user into speech,keeps running till user wans to exit.
 -**Modules Used**:'win32com.client'
 - **Features**:
@@ -81,7 +81,7 @@ It is a handy and fast text to speech translation which can convert the input te
 -Multiple Voice Support: Utilizes system's built-in text-to-speech engines
 -Simple Interface: Easy-to-use command-line interface
 
-### Weather-App
+### 10. ☁**Weather-App**
 A Python application that fetches real-time weather data and announces the temperature using text-to-speech while displaying comprehensive weather information in a user-friendly manner onto the terminal.
 -**Modules Used**:'win32com.client','os','json','dotenv','requests'
 -**Features**:
